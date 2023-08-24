@@ -11,12 +11,12 @@ const WorkExperience = () => {
 
                 <WorkExperienceCard
                     title="Front-End Web Developer (Github)"
-                    des=" 1st june 2022 - Present">
+                    time=" 1st june 2022 - Present">
 
                 </WorkExperienceCard>
                 <WorkExperienceCard
                     title="Graphic Designer(UpWork)"
-                    des=" 5th January, 2021 - 30th December, 2021">
+                    time=" 5th January, 2021 - 30th December, 2021">
 
                 </WorkExperienceCard>
 
