@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './commonent/Navbar/Navbar';
 
@@ -6,6 +6,7 @@ import Navbar from './commonent/Navbar/Navbar';
 import Features from './commonent/Features/Features';
 import Home from './commonent/Home/Home';
 import Project from './commonent/Project/Project';
+import Experience from './commonent/Experience/Experience';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Home></Home>
         <Features></Features>
         <Project></Project>
+        <Experience></Experience>
 
 
       </div>
