@@ -5,6 +5,7 @@ import Navbar from './commonent/Navbar/Navbar';
 
 import Features from './commonent/Features/Features';
 import Home from './commonent/Home/Home';
+import Project from './commonent/Project/Project';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Navbar></Navbar>
         <Home></Home>
         <Features></Features>
+        <Project></Project>
+
 
       </div>
     </div >
