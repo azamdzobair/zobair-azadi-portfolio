@@ -7,6 +7,7 @@ import Features from './commonent/Features/Features';
 import Home from './commonent/Home/Home';
 import Project from './commonent/Project/Project';
 import Experience from './commonent/Experience/Experience';
+import Contact from './commonent/Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Features></Features>
         <Project></Project>
         <Experience></Experience>
+        <Contact></Contact>
 
 
       </div>

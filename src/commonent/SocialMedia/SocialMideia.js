@@ -1,32 +1,14 @@
 import React from 'react';
 
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact }
+import { FaReact }
     from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs }
     from "react-icons/si";
 
 const SocialMedia = () => {
     return (
-        <div className="flex justify-between">
-            <div>
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                    Find me in
-                </h2>
-                <div className="flex gap-4">
-                    <span className="bannerIcon">
-                        <FaFacebookF />
-
-                    </span>
-                    <span className="bannerIcon">
-                        <FaTwitter />
-
-                    </span>
-                    <span className="bannerIcon">
-                        <FaLinkedinIn />
-                    </span>
-                </div>
-            </div>
-            <div>
+        <div className="flex">
+            <div className='mr-5'>
                 <h2 className="text-base uppercase font-titleFont mb-4">
                     BEST SKILL ON
                 </h2>
@@ -43,6 +25,17 @@ const SocialMedia = () => {
                     <span className="bannerIcon">
                         <SiFigma />
                     </span>
+                </div>
+            </div>
+            <div className='ml-5'>
+                <h2 className="text-base uppercase font-titleFont mb-4">
+                    BEST SKILL ON
+                </h2>
+                <div className="flex gap-4">
+                    <span className="bannerIcon">
+                        <FaReact />
+                    </span>
+
                 </div>
             </div>
         </div>

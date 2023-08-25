@@ -5,7 +5,7 @@ import Title from '../Titlle/Title';
 
 const Experience = () => {
     return (
-        <section id="Experience"
+        <section id="experience"
             className="w-full pt-10 pb-20  border-b-[1px] font-titleFont border-b-black"
 
         >
