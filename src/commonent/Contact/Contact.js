@@ -9,7 +9,7 @@ const Contact = () => {
             id="contact"
             className="w-full py-20 border-b-[1px] border-b-black"
         >
-            <Title title="Contact" des="Contact" ></Title>
+            <Title des="Contact" ></Title>
             <div>
                 <h2 className="text-base uppercase font-titleFont mb-4">
                     Find me in

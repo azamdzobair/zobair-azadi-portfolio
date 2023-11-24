@@ -9,7 +9,7 @@ const Experience = () => {
             className="w-full pt-10 pb-20  border-b-[1px] font-titleFont border-b-black"
 
         >
-            <Title title="Experience" des="Experience" ></Title>
+            <Title des="Experience" ></Title>
             <div className='flex'><WorkExperience></WorkExperience>
                 <Education></Education></div>
 

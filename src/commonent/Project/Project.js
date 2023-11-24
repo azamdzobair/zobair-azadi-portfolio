@@ -16,46 +16,58 @@ const Project = () => {
         >
             <div className="flex justify-center items-center text-center">
                 <Title
-                    title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+
                     des="My Projects"
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
-                    title="SOCIAL MEDIA CLONE"
+                    title="Donte Website"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={oneImage}
+                    CodeLink="https://github.com/azamdzobair/assignment-repo"
+                    WebLink="https://azamdzobair.github.io/assignment-repo/"
                 />
                 <ProjectCard
-                    title="E-commerce Website"
+                    title="Corporate Website"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={twoImage}
+                    CodeLink="https://github.com/azamdzobair/corporate-website"
+                    WebLink="https://resplendent-rabanadas-c4e979.netlify.app/"
                 />
                 <ProjectCard
-                    title="Chatting App"
+                    title="Digital Learnig"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={threeImage}
+                    CodeLink="https://github.com/azamdzobair/assignment-3-by-azadi"
+                    WebLink="https://azamdzobair.github.io/assignment-3-by-azadi/"
                 />
                 <ProjectCard
-                    title="SOCIAL MEDIA CLONE"
+                    title="E-Commerce Website"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={fourImage}
+                    CodeLink="https://github.com/azamdzobair/-My-e-commerce-websites"
+                    WebLink="https://azamdzobair.github.io/-My-e-commerce-websites/"
                 />
                 <ProjectCard
                     title="E-commerce Website"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={fiveImage}
+                    CodeLink="https://github.com/azamdzobair/panda-practice-me"
+                    WebLink="https://azamdzobair.github.io/panda-practice-me/"
                 />
                 <ProjectCard
-                    title="Chatting App"
+                    title="CodePen Colon"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={sixImage}
+                    CodeLink="https://github.com/azamdzobair/my-code-pen"
+                    WebLink="https://my-code-pen.netlify.app/"
                 />
             </div>
         </section>
