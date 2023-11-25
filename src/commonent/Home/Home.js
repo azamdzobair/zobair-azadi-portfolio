@@ -2,6 +2,8 @@ import React from 'react';
 import HomeLeft from '../HomeLeft/HomeLeft';
 import HomeRight from '../HomeRight/HomeRight';
 
+// Home
+
 const Home = () => {
     return (
         <section id="home"

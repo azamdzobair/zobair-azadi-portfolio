@@ -1,6 +1,8 @@
 import React from 'react';
 import EducationCard from './EducationCard';
 
+// Education
+
 const Education = () => {
     return (
         <div className="w-1/2 flex flex-col ml-7 gap-20">

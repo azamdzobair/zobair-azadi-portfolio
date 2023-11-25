@@ -1,6 +1,8 @@
 import React from 'react';
 import WorkExperienceCard from './WorkExperienceCard';
 
+// WorkExperience
+
 const WorkExperience = () => {
     return (
         <div className="w-1/2 flex flex-col mr-7 gap-20">

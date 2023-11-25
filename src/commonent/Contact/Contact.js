@@ -3,6 +3,8 @@ import Title from '../Titlle/Title';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact }
     from "react-icons/fa";
 
+// Contact
+
 const Contact = () => {
     return (
         <section

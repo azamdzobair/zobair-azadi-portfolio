@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Title
+
 const Title = ({ title, des }) => {
     return (
         <div className="flex flex-col gap-4 font-titleFont mb-14">

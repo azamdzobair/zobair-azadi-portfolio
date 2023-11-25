@@ -8,6 +8,8 @@ import fourImage from '../../img/project 4.jpg';
 import fiveImage from '../../img/project 5.jpg';
 import sixImage from '../../img/project 6.jpg';
 
+// Project
+
 const Project = () => {
     return (
         <section
@@ -20,6 +22,9 @@ const Project = () => {
                     des="My Projects"
                 />
             </div>
+
+            {/* Project Data */}
+
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
                     title="Donte Website"

@@ -2,7 +2,7 @@ import React from 'react';
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-
+// ProjectCard
 
 const ProjectCard = ({ title, des, src, CodeLink, WebLink }) => {
     return (

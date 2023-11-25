@@ -5,6 +5,8 @@ import { FaReact }
 import { SiTailwindcss, SiFigma, SiNextdotjs }
     from "react-icons/si";
 
+// BEST SKILL
+
 const SocialMedia = () => {
     return (
         <div className="flex">
@@ -27,17 +29,7 @@ const SocialMedia = () => {
                     </span>
                 </div>
             </div>
-            <div className='ml-5'>
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                    BEST SKILL ON
-                </h2>
-                <div className="flex gap-4">
-                    <span className="bannerIcon">
-                        <FaReact />
-                    </span>
 
-                </div>
-            </div>
         </div>
     );
 };

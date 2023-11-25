@@ -1,10 +1,11 @@
 
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../../img/logo.png';
 
 
 
+
+// Navbar
 
 const Navbar = () => {
     const [navDatas, setNavDatas] = useState([]);
@@ -18,10 +19,9 @@ const Navbar = () => {
 
     return (
         <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-            <div>
-                <img className='w-8 h-8' src={logo} alt="logo" />
 
-            </div>
+            {/* NavData loop */}
+
             <div>
                 <ul className="flex items-center gap-10">
                     {navDatas.map(navData => <li

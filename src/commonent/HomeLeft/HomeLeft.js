@@ -2,11 +2,14 @@ import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import SocialMedia from '../SocialMedia/SocialMideia';
 
+// HomeLeft
 
 const HomeLeft = () => {
 
+    // Create animation designation
+
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+        words: ["Front-End Web Developer.", "Rect Developer.", "Professional Coder."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
@@ -20,7 +23,7 @@ const HomeLeft = () => {
                     Hi, I'm <span className="text-designColor capitalize">Zobair</span>
                 </h1>
                 <h2 className="text-4xl font-bold text-white">
-                    a <span>{text}</span>
+                    <span>{text}</span>
                     <Cursor
                         cursorBlinking="false"
                         cursorStyle="|"
@@ -28,9 +31,8 @@ const HomeLeft = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    I use animation as a third dimension by which to simplify experiences
-                    and kuiding thro each and every interaction. I'm not adding motion
-                    just to spruce things up, but doing it in ways that.
+                    I am a Professional Front-End Web Developer. I know some
+                    technologies of web development such as HTML, CSS, JavaScript, and React. I completed some awesome Front-End projects.
                 </p>
             </div>
             <SocialMedia></SocialMedia>
