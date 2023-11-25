@@ -2,41 +2,24 @@ import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 
-// Card Data
+// Features Card Data
 export const CardData = [
     {
         id: 1,
-        title: "Business Stratagy",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        title: "Web Development",
+        des: "2 years experience of Web Development. I complete more than 10 Web Development project  ",
     },
     {
         id: 2,
         icon: <AiFillAppstore />,
-        title: "App Development",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        title: "React Development",
+        des: "1 years experience of React Development. I complete more than 5 React Development project",
     },
     {
         id: 3,
         icon: <SiProgress />,
-        title: "SEO Optimisation",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-    },
-    {
-        id: 4,
-        icon: <FaMobile />,
-        title: "Mobile Development",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-    },
-    {
-        id: 5,
-        icon: <SiAntdesign />,
-        title: "UX Design",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-    },
-    {
-        id: 6,
-        icon: <FaGlobe />,
-        title: "Hosting Websites",
-        des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-    },
+        title: "Theme Design",
+        des: "1 years experience of Theme Design. I complete more than 5 Theme Design project ",
+    }
+
 ];
