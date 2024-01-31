@@ -15,14 +15,17 @@ const SocialMedia = () => {
                     BEST SKILL ON
                 </h2>
                 <div className="flex gap-4">
-                    <span className="bannerIcon">
-                        <FaReact />
+                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
+                    justify-center items-center">
+                        <FaReact className='w-8 h-8' />
                     </span>
-                    <span className="bannerIcon">
-                        <SiNextdotjs />
+                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
+                    justify-center items-center drop-shadow-md">
+                        <SiNextdotjs className='w-8 h-8' />
                     </span>
-                    <span className="bannerIcon">
-                        <SiTailwindcss />
+                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
+                    justify-center items-center drop-shadow-md">
+                        <SiTailwindcss className='w-8 h-8' />
                     </span>
                     <span className="bannerIcon">
                         <SiFigma />

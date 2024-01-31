@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../../img/Untitled-1.png';
+import Picture from '../../img/protoflio img.png';
 
 // HomeRight
 

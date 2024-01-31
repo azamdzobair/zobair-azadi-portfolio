@@ -18,14 +18,16 @@ const Navbar = () => {
 
 
     return (
-        <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+        <div className="w-full h-24 sticky top-0 z-50 bg-blue-950  flex 
+         items-center justify-center font-titleFont border-b-[1px] border-b-gray-600">
 
             {/* NavData loop */}
 
             <div>
-                <ul className="flex items-center gap-10">
+                <ul className="flex items-center  gap-10">
                     {navDatas.map(navData => <li
-                        className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                        className="text-base font-normal text-gray-400  
+                        cursor-pointer hover:text-orange-600 duration-300"
                         key={navData._id}
 
                     >
