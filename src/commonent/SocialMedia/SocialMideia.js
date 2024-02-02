@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FaReact }
     from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs }
+import { SiTailwindcss, SiFigma, }
     from "react-icons/si";
     import { IoLogoJavascript } from "react-icons/io";
 

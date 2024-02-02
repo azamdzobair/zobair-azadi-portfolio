@@ -17,8 +17,8 @@ const WorkExperience = () => {
 
                 </WorkExperienceCard>
                 <WorkExperienceCard
-                    title="Graphic Designer(UpWork)"
-                    time=" 5th January, 2021 - 30th December, 2021">
+                    title="Graphic Designer(NCTV)"
+                    time=" 5th January, 2020 - 30th December, 2021">
 
                 </WorkExperienceCard>
 

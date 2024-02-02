@@ -27,7 +27,7 @@ const Project = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
-                    title="Donte Website"
+                    title="Donte"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={oneImage}
@@ -35,7 +35,7 @@ const Project = () => {
                     WebLink="https://azamdzobair.github.io/assignment-repo/"
                 />
                 <ProjectCard
-                    title="Corporate Website"
+                    title="Corporate "
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={twoImage}
@@ -51,7 +51,7 @@ const Project = () => {
                     WebLink="https://azamdzobair.github.io/assignment-3-by-azadi/"
                 />
                 <ProjectCard
-                    title="E-Commerce Website"
+                    title="E-Commerce "
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={fourImage}
@@ -59,7 +59,7 @@ const Project = () => {
                     WebLink="https://azamdzobair.github.io/-My-e-commerce-websites/"
                 />
                 <ProjectCard
-                    title="E-commerce Website"
+                    title="E-commerce "
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={fiveImage}

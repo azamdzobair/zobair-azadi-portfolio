@@ -17,16 +17,19 @@ const Contact = () => {
                     Find me in
                 </h2>
                 <div className="flex gap-4">
-                    <span className="bannerIcon">
-                        <FaFacebookF />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <FaFacebookF className='w-6 h-6' />
 
                     </span>
-                    <span className="bannerIcon">
-                        <FaTwitter />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <FaTwitter className='w-6 h-6' />
 
                     </span>
-                    <span className="bannerIcon">
-                        <FaLinkedinIn />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <FaLinkedinIn className='w-6 h-6' />
                     </span>
                 </div>
             </div>
