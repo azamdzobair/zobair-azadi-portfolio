@@ -4,6 +4,7 @@ import { FaReact }
     from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs }
     from "react-icons/si";
+    import { IoLogoJavascript } from "react-icons/io";
 
 // BEST SKILL
 
@@ -15,20 +16,21 @@ const SocialMedia = () => {
                     BEST SKILL ON
                 </h2>
                 <div className="flex gap-4">
-                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
-                    justify-center items-center">
-                        <FaReact className='w-8 h-8' />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300 ">
+                        <FaReact className='w-6 h-6' />
                     </span>
-                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
-                    justify-center items-center drop-shadow-md">
-                        <SiNextdotjs className='w-8 h-8' />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <IoLogoJavascript className='w-6 h-6' />
                     </span>
-                    <span className="w-16 h-16 rounded-full  bg-orange-600 flex 
-                    justify-center items-center drop-shadow-md">
-                        <SiTailwindcss className='w-8 h-8' />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <SiTailwindcss className='w-6 h-6' />
                     </span>
-                    <span className="bannerIcon">
-                        <SiFigma />
+                    <span className="w-10 h-10 rounded-full flex justify-center 
+                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <SiFigma  className='w-6 h-6' />
                     </span>
                 </div>
             </div>

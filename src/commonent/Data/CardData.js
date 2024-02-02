@@ -1,11 +1,13 @@
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
+import { MdDisplaySettings } from "react-icons/md";
 
 // Features Card Data
 export const CardData = [
     {
         id: 1,
+        icon:<MdDisplaySettings />,
         title: "Web Development",
         des: "2 years experience of Web Development. I complete more than 10 Web Development project  ",
     },
