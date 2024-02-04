@@ -8,9 +8,9 @@ const HomeRight = () => {
 
         // profile Picture
 
-        <div className="w-1/2 flex justify-center items-center">
+        <div className=" sm:w-1/2 md:w-1/2  flex justify-center items-center ">
 
-            <img className='' src={Picture} alt="logo" />
+            <img className='' src={Picture} alt="pic" />
         </div>
     );
 };

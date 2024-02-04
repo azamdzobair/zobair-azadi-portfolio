@@ -5,7 +5,7 @@ import EducationCard from './EducationCard';
 
 const Education = () => {
     return (
-        <div className="w-1/2 flex flex-col ml-7 gap-20">
+        <div className="w-full sm:w-1/2 md:w-1/2 flex flex-col sm:ml-7 md:ml-7 gap-8">
             <div className="">
                 <h1>Education</h1>
             </div>

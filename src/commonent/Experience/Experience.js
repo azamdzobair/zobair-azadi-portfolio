@@ -12,8 +12,12 @@ const Experience = () => {
 
         >
             <Title des="Experience" ></Title>
-            <div className='flex'><WorkExperience></WorkExperience>
-                <Education></Education></div>
+            <div className='sm:flex md:flex '>
+
+                <WorkExperience></WorkExperience>
+                <Education></Education>
+                
+            </div>
 
 
 

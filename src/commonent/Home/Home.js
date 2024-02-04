@@ -7,7 +7,7 @@ import HomeRight from '../HomeRight/HomeRight';
 const Home = () => {
     return (
         <section id="home"
-            className="w-full pt-10 pb-20 flex items-center border-b-[1px] font-titleFont border-b-black"
+            className="w-full pt-10 pb-20 space-y-24 sm:flex md:flex items-center border-b-[1px] font-titleFont border-b-black"
 
         >
             <HomeLeft></HomeLeft>
