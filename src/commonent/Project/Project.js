@@ -14,7 +14,7 @@ const Project = () => {
     return (
         <section
             id="projects"
-            className="w-full py-20 border-b-[1px] border-b-black"
+            className="w-full pt-20 sm:pt-32 md:pt-32"
         >
             <div>
                 <Title

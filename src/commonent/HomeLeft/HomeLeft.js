@@ -16,7 +16,7 @@ const HomeLeft = () => {
         delaySpeed: 2000,
     });
     return (
-        <div className=" sm:w-1/2 md:w-1/2 flex flex-col gap-8 sm:gap-20 md:gap-20">
+        <div className=" sm:w-1/2 md:w-1/2  flex flex-col gap-8 sm:gap-20 md:gap-20">
             <div className="flex flex-col gap-5">
                 <h4 className="text-sm sm:text-lg font-normal">WELCOME TO MY WORLD</h4>
                 <h1 className="text-6xl font-bold text-white">

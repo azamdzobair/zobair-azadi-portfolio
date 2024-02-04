@@ -8,6 +8,7 @@ import Home from './commonent/Home/Home';
 import Project from './commonent/Project/Project';
 import Experience from './commonent/Experience/Experience';
 import Contact from './commonent/Contact/Contact';
+import Footer from './commonent/Footer/Footer';
 
 function App() {
   return (
@@ -19,9 +20,11 @@ function App() {
         <Project></Project>
         <Experience></Experience>
         <Contact></Contact>
+        
 
 
       </div>
+      <Footer></Footer>
     </div >
   );
 }

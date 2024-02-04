@@ -5,7 +5,7 @@ import WorkExperienceCard from './WorkExperienceCard';
 
 const WorkExperience = () => {
     return (
-        <div className=" w-full sm:w-1/2 md:w-1/2 flex flex-col sm:mr-7 md:mr-7 gap-8">
+        <div className=" w-full mb-12 sm:w-1/2 md:w-1/2 flex flex-col sm:mr-7 md:mr-7 gap-8">
             <div className="">
                 <h1>WorkExperience</h1>
             </div>

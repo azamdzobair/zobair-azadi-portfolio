@@ -8,7 +8,7 @@ import Title from '../Titlle/Title';
 const Experience = () => {
     return (
         <section id="experience"
-            className="w-full pt-10 pb-20  border-b-[1px] font-titleFont border-b-black"
+            className="w-full pt-20 sm:pt-32 md:pt-32 font-titleFont"
 
         >
             <Title des="Experience" ></Title>
