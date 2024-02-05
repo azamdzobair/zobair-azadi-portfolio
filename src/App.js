@@ -20,10 +20,7 @@ function App() {
         <Project></Project>
         <Experience></Experience>
         <Contact></Contact>
-        
-
-
-      </div>
+        </div>
       <Footer></Footer>
     </div >
   );

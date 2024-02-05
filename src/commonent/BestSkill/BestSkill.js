@@ -8,7 +8,7 @@ import { SiTailwindcss, SiFigma, }
 
 // BEST SKILL
 
-const SocialMedia = () => {
+const bestSkill = () => {
     return (
         <div className="flex">
             <div className='mr-5'>
@@ -16,20 +16,16 @@ const SocialMedia = () => {
                     BEST SKILL ON
                 </h2>
                 <div className="flex gap-4">
-                    <span className="w-10 h-10 rounded-full flex justify-center 
-                    items-center bg-orange-600 hover:bg-orange-700 duration-300 ">
+                    <span className="iconDesign">
                         <FaReact className='w-6 h-6' />
                     </span>
-                    <span className="w-10 h-10 rounded-full flex justify-center 
-                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                    <span className="iconDesign">
                         <IoLogoJavascript className='w-6 h-6' />
                     </span>
-                    <span className="w-10 h-10 rounded-full flex justify-center 
-                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                    <span className="iconDesign">
                         <SiTailwindcss className='w-6 h-6' />
                     </span>
-                    <span className="w-10 h-10 rounded-full flex justify-center 
-                    items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                    <span className="iconDesign">
                         <SiFigma  className='w-6 h-6' />
                     </span>
                 </div>
@@ -39,4 +35,4 @@ const SocialMedia = () => {
     );
 };
 
-export default SocialMedia;
+export default bestSkill;

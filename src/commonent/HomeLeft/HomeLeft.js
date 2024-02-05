@@ -1,6 +1,6 @@
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import SocialMedia from '../SocialMedia/SocialMideia';
+import BestSkill from '../BestSkill/BestSkill';
 
 // HomeLeft
 
@@ -18,7 +18,7 @@ const HomeLeft = () => {
     return (
         <div className=" sm:w-1/2 md:w-1/2 mb-20  flex flex-col gap-8 sm:gap-20 md:gap-20">
             <div className="flex flex-col gap-5">
-                <h4 className="text-sm sm:text-lg font-normal">WELCOME TO MY WORLD</h4>
+                <h4 className="text-sm sm:text-lg font-normal">Welcome To My Portfolio</h4>
                 <h1 className="text-6xl font-bold text-white">
                     Hi, I'm <span className="text-orange-600 capitalize">Azadi</span>
                 </h1>
@@ -35,7 +35,8 @@ const HomeLeft = () => {
                     technologies of web development such as HTML, CSS, JavaScript, and React. I completed some awesome Front-End projects.
                 </p>
             </div>
-            <SocialMedia></SocialMedia>
+            <BestSkill></BestSkill>
+            
         </div>
 
     );

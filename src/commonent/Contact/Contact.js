@@ -27,20 +27,20 @@ const Contact = () => {
                     {/* follow me in social media */}
 
                     <div className=' w-full sm:w-1/2 md:w-1/2 sm:flex md:flex items-center justify-end'>
-                        <h2 className='font-semibold text-lg text-white mr-6 mb-4'>Follow me:</h2>
+                      
+                            <h2 className='font-semibold text-lg text-white mr-6 mb-4 sm:mb-0 md:mb-0'>Follow me:
+                            </h2>
+                        
                         <div className="flex gap-4">
-                        <a href="https://www.facebook.com/zobair.azadi" target="#" className="w-10 h-10 rounded-full flex justify-center 
-                        items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                        <a href="https://www.facebook.com/zobair.azadi" target="#" className="iconDesign">
                             <FaFacebookF className='w-6 h-6' />
 
                             </a>
-                            <a href="https://twitter.com/azadi_md" target="#" className="w-10 h-10 rounded-full flex justify-center 
-                        items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                            <a href="https://twitter.com/azadi_md" target="#" className="iconDesign">
                             <FaTwitter className='w-6 h-6' />
 
                             </a>
-                            <a href="https://www.linkedin.com/in/zobairazadi/" target="#" className="w-10 h-10 rounded-full flex justify-center 
-                        items-center bg-orange-600 hover:bg-orange-700 duration-300">
+                            <a href="https://www.linkedin.com/in/zobairazadi/" target="#" className="iconDesign">
                             <FaLinkedinIn className='w-6 h-6' />
                             </a>
 
