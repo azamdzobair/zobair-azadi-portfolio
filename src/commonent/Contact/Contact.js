@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from '../Titlle/Title';
-import { FaFacebookF, FaTwitter, FaLinkedinIn,}
-    from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn,}from "react-icons/fa";
 
 // Contact
 

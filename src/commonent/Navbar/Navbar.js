@@ -23,10 +23,6 @@ const Navbar = () => {
         <div className="w-full h-24 sticky top-0 z-50 bg-blue-950  flex 
          items-center justify-center font-titleFont border-b-[1px] border-b-gray-600">
 
-            
-
-            
-
             <div>
                 <div onClick={() => setOpen(!open)} className='sm:hidden' >
                             {
