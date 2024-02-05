@@ -9,7 +9,7 @@ const Features = () => {
     return (
         <section
             id="features"
-            className="w-full pt-20 sm:pt-32 md:pt-32 "
+            className="w-full pt-20 sm:pt-12 md:pt-12 "
         >
             <Title des="What I Do" ></Title>
 

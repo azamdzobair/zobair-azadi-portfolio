@@ -34,7 +34,7 @@ const Contact = () => {
                             <FaFacebookF className='w-6 h-6' />
 
                             </a>
-                            <a href="https://www.linkedin.com/in/zobairazadi/" target="#" className="w-10 h-10 rounded-full flex justify-center 
+                            <a href="https://twitter.com/azadi_md" target="#" className="w-10 h-10 rounded-full flex justify-center 
                         items-center bg-orange-600 hover:bg-orange-700 duration-300">
                             <FaTwitter className='w-6 h-6' />
 

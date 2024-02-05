@@ -12,7 +12,7 @@ const SocialMedia = () => {
     return (
         <div className="flex">
             <div className='mr-5'>
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="font-bold uppercase font-titleFont mb-4">
                     BEST SKILL ON
                 </h2>
                 <div className="flex gap-4">
